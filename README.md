@@ -10,15 +10,13 @@ This repository contains following features:
 
 To use the features from this repository, add the desired features to devcontainer.json.
 
-This example use google-cloud-cli feature on devcontainer.
+This example use gbc-cli feature on devcontainer.
 
 ```jsonc
 {
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "features": {
-    "ghcr.io/yehor-ms/dev-container-features/gbc-cli:0": {
-      "version": "latest"
-    }
+    "ghcr.io/yehor-ms/dev-container-features/gbc-cli:0": {}
   }
 }
 ```
@@ -29,10 +27,7 @@ Similar to the [`devcontainers/features`](https://github.com/devcontainers/featu
 
 ```
 ├── src
-│   ├── hello
-│   │   ├── devcontainer-feature.json
-│   │   └── install.sh
-│   ├── color
+│   ├── gbc-cli
 │   │   ├── devcontainer-feature.json
 │   │   └── install.sh
 |   ├── ...

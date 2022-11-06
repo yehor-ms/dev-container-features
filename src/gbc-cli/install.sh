@@ -27,8 +27,8 @@ git clone --recursive https://github.com/microsoft/bond.git
 cd bond
 mkdir build
 cd build
-cmake ..
-make
+cmake -DBOND_ENABLE_GRPC=FALSE ..
+make --jobs 8
 sudo make install
 
 cd ../../
