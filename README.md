@@ -4,7 +4,7 @@ Dev Container Features
 
 This repository contains following features:
 
-- [gbc-cli](./src/gbc-cli/README.md): Install Google Cloud CLI tools
+- [gbc-cli](./src/gbc-cli/README.md): Install Bond Compiler CLI tools
 
 ## Usage
 
@@ -16,7 +16,7 @@ This example use google-cloud-cli feature on devcontainer.
 {
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "features": {
-    "ghcr.io/dhoeric/features/google-cloud-cli:1": {
+    "ghcr.io/yehor-ms/dev-container-features/gbc-cli:0": {
       "version": "latest"
     }
   }
