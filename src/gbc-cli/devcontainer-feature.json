@@ -1,0 +1,19 @@
+{
+    "name": "Bond Compiler",
+    "id": "gbc-cli",
+    "version": "0.0.1",
+    "description": "Install Bond Compiler 10.0.0 (gbc cli tool)",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposal": [
+                "latest"
+            ],
+            "default": "latest",
+            "description": "Select or enter a gcloud CLI version"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

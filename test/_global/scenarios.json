@@ -1,0 +1,8 @@
+{
+    "gbc": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "gbc-cli": {}
+        }
+    }
+}
